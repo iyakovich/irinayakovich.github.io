@@ -11,7 +11,8 @@
       <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/icon.png" sizes="16x16" />
 
       <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-      <link rel="stylesheet" href="{{ site.baseurl }}{{ "/style.css" }}">
+
+      <link rel="stylesheet" href="/assets/css/main.css" />
 
       <!-- Google verification -->
       {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
@@ -87,9 +88,12 @@
     </header>
 
     {% include about_me.html %}
-    {% include interests.html %}
-    {% include contact_form.html %}
-
+    {% include cv.html %}
+<!--    {% include education.html %}
+    {% include certifications.html %}
+    {% include recommendations.html %}
+    {% include social.html %}
+-->                     
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-below">

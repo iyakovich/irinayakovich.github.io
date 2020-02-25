@@ -2,12 +2,7 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
 ---
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
+{% include css/bootstrap.min.css %}
 body {
     overflow-x: hidden;
 }
@@ -476,15 +471,6 @@ header .intro-text .name {
     font-size: 2.25em;
 }
 
-#certifications 
-{
-	.pluralsight-item 
-	{
-		padding:20px;
-		width:200px;
-		img
-		{
-			width:100px;
-		}
-	}
-}
+
+
+@import "styles";

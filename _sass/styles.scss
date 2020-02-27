@@ -1,22 +1,53 @@
 #certifications {
     .pluralsight-item {
-        padding: 20px;
-        width: 200px;
+        margin: 20px;
+		border:1px solid black;
+		border-radius: 5px;
+		
+		padding:10px;
+		width:200px;
+		max-width:200px;
+		text-align:center;
         img {
             width: 100px;
         }
+		
+		    &:hover img {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
     }
+		h3
+		{
+			font-size:15px;
+		}
+    }
+}
+
+#social
+{
+	div
+	{
+		text-align:center;
+		img
+		{
+			padding:20px;
+			width:100px;
+		}
+	}
 }
 
 img {
     transition: all 500ms;
 }
 
-#experience {
+section {
     .experience-image {
         float: left;
         margin-right: 20px;
-        width: 175px;
+		width:100px;
         height: 160px;
         overflow: hidden;
     }

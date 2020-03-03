@@ -29,7 +29,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #ff9966;
 }
 
 h1,
@@ -119,10 +119,6 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
-        padding-top: 150px;
-        padding-bottom: 40px;
-    }
 
     header .intro-text .name {
         font-size: 2.75em;

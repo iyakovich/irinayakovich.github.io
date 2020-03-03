@@ -1,42 +1,62 @@
 #certifications {
     .pluralsight-item {
         margin: 8px;
-		border:1px solid black;
-		border-radius: 5px;
-		
-		padding:5px;
-		width:170px;
-		max-width:170px;
-		text-align:center;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        width: 170px;
+        max-width: 170px;
+        text-align: center;
         img {
             width: 100px;
         }
-		
-		    &:hover img {
-        -webkit-transform: scale(0.9);
-        -moz-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-        -o-transform: scale(0.9);
-        transform: scale(0.9);
-    }
-		h3
-		{
-			font-size:15px;
-		}
+        &:hover img {
+            -webkit-transform: scale(0.9);
+            -moz-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            -o-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+        h3 {
+            font-size: 15px;
+        }
     }
 }
 
-#social
-{
-	div
+#about{
+	.tags
 	{
-		text-align:center;
-		img
-		{
-			padding:20px;
+		img{
 			width:100px;
+			padding:20px;
 		}
+		
 	}
+	
+	
+.cloud {
+	
+    display: inline;
+    list-style-type: none;
+    li {
+        list-style: none;
+		border-radius:5px;
+		margin:5px;
+		padding:5px;
+		border:1px;
+    }
+}
+
+}
+
+#social {
+    div {
+        text-align: center;
+        img {
+            padding: 20px;
+            width: 100px;
+        }
+    }
 }
 
 img {
@@ -47,7 +67,7 @@ section {
     .experience-image {
         float: left;
         margin-right: 20px;
-		width:100px;
+        width: 100px;
         height: 160px;
         overflow: hidden;
     }

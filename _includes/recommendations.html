@@ -6,254 +6,34 @@
                 <hr />
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
 
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/timo-hutjens-48a91a1a/"> <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGxYYelvkTm0g/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=e4gkqnhtqMfhZq4TOngDd2e08Mn9in2G-DZVLHyVRHo" alt="Timo Hutjens" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/timo-hutjens-48a91a1a/">Timo Hutjens</a></h3>
-                        <h4>Software developer Strategic Development BI (Finance &amp; Risk Center) at Rabobank</h4>
-                        <h6>April 14, 2019, Timo reported directly to Dmitri</h6>
-                        <p>
-                            For the past 2 years i've worked with Dmitri and the past 6 or so months as a direct team member of Dmitri. I've come to know Dmitri as a result focused team lead and a professional in the art of software development. Dmitri, good luck on your next adventure and I hope we will meet again!
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
+        {% assign sorted = (site.data.linkedin.RecommendationsReceived | where: "Status","VISIBLE" | reverse %}
+        {% for recommendation in sorted %}
+        {% capture fullName %}{{ recommendation['First Name'] }} {{ recommendation['Last Name'] }}{% endcapture %}
+        {% assign link = (site.data.linkedinExtra.connections | where: "Full Name",fullName | first) %}
+      
         <div class="row">
             <div class="col-sm-12">
                 <div class="experience-item">
                     <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/huyhoang/"> <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFwBCH5ZX1Y4g/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=XooEGRlycjlCZgbB6NcbaBBm6kJIsrE0uyecGu5DK2I" alt="Huy Hoang" width="100" height="100" /></a>
+                        <a target="_blank" href="{{ link.link }}"> 
+                            <img src="/assets/images/recommendations/{{ fullName }}.jpg" alt="{{ fullName }}" width="100" height="100" /></a>
                     </div>
                     <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/huyhoang/">Huy Hoang</a></h3>
-                        <h4> Freelance .NET Developer Co-Founder &amp; Head of Technology at PayLay - Open Payments Framework</h4>
-                        <h6>April 8, 2019, Huy reported directly to Dmitri</h6>
 
+                        <h3><a target="_blank" href="{{ link.link }}">
+                            {{ fullName }}
+                        </a></h3>
+                        <h4>{{recommendation['Job Title']}} at {{recommendation['Company']}} </h4>
+                        <!--<h6>{{recommendation['Creation Date']}}</h6>-->
                         <p>
-                            It was a great pleasure to work with Dmitri as he has great responsibility and helpful in many ways: as a team lead, software developer and a colleague.
+                       {{recommendation['Text']}}
                         </p>
                     </div>
                 </div>
-
             </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/rogier-van-het-schip-66047817/"> <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH7ooBkfHAcEQ/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=LC0qeNDE4O0pOa0tSs7bRMsQ02_rOPxUEwCxqrDs2Cs" alt="Rogier van het Schip" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/rogier-van-het-schip-66047817/">Rogier van het Schip</a></h3>
-                        <h4>Owner and Senior .NET software developer / architect at Craftware</h4>
-                        <h6>April 5, 2019, Rogier reported directly to Dmitri</h6>
-
-                        <p>
-                            Dmitri and I have worked together for 1.5 years. In that time I've come to know him as an experienced software developer with both broad and deep knowledge of the field. His pragmatic approach makes for fast results, while guarding the long term quality and maintainability of the software. His professional and result-driven attitude means he can both bridge the gap between business and IT, as well as deliver the requested software.
-                            <br>
-                            <br> Dmitri, good luck on your new position, I'm sure your expertise will be more than welcome!
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/irina-shipilova-a6378392/"> <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHZt7p7CBPHiA/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=ONz9hEBY5i-KzL3JzeoGuG5ciQ-ei30CTvJlQqci5Xo" alt="Irina Shipilova" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/irina-shipilova-a6378392/">Irina Shipilova</a></h3>
-                        <h4>UX Designer at CXO Software</h4>
-                        <h6>November 14, 2014, Irina reported directly to Dmitri</h6>
-
-                        <p>
-                            I had pleasure to work with Dmitri for two years at CXO-Cockpit, he had the function of Development Team Lead. We worked together on a daily basis. During that time, Dmitri proved to be incredibly helpful and knowledgeable. He always had an efficient strategy to make our work process smooth and was excellent in communication with the rest of the team. Dmitri has built a strong reputation as someone who has efficiency, organization, and time-management skills – someone who gets things done! I heartily recommend Dmitri and would be happy to work with him again.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/joostvogelezang/"> <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHmEUHjxRZtkw/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=viJWz8e0Y9WX9kLDI4sVeF3HnAWHLd3L5i6_vK_8PT8" alt="Joost Vogelezang" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/joostvogelezang/">Joost Vogelezang</a></h3>
-                        <h4>Senior Vice President / General Manager CXO at insightsoftware</h4>
-                        <h6>November 12, 2014, Joost managed Dmitri directly</h6>
-
-                        <p>
-                            Working with Dmitri I found him as a person with great skills and deep expertise of software solutions. Dmitri does not get stressed and is reliable and efficient. Dmitri was very dedicated to CXO Solutions; for over 5 years he delivered high quality work.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/maksimterentyev/"> <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEXFMtSXjMnog/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=oYuflVLEPjxQEXy4v5XXDS7TYvx_7VbtJF0RyQQogSw" alt="Maksim Terentyev" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/maksimterentyev/">Maksim Terentyev</a></h3>
-                        <h4>Software Engineer at Pandora</h4>
-                        <h6>September 3, 2014, Maksim worked with Dmitri in different groups</h6>
-
-                        <p>
-                            Dmitri is high quality web developer. He can explain or discuss anything about web and web technologies.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/vincent-mastenbroek-7bb58a/"> <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG5aKHHZdAaQA/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=dlEhWq518gjVzWhIU52g_Zz_dD1uPjeOkAt-16Y8AcQ" alt="Vincent Mastenbroek" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/vincent-mastenbroek-7bb58a/">Vincent Mastenbroek</a></h3>
-                        <h4>IT Architect at 42 Technology</h4>
-                        <h6>August 10, 2010, Vincent managed Dmitri directly</h6>
-
-                        <p>
-                            Dmitri is a very qualified developer. When giving him a task he does not give up until it&rsquo;s finished, no matter how difficult the task can be. Dmitri is very skilled in building web-applications and eager to learn new technologies.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/gabrieleluculli/"> <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Gabriele Luculli" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/gabrieleluculli/">Gabriele Luculli</a></h3>
-                        <h4>PhD, MBA Finance, Certificate of Managing Models and Risk for Quants, Traders and Validators</h4>
-                        <h6>August 9, 2010, Gabriele was senior to Dmitri but didn&rsquo;t manage directly</h6>
-
-                        <p>
-                            I'm glad Dmitri asked me for this recommendation. In the short time we worked together on the same organization I was very positively impressed by both the strong technical skills he showed and the nice way of communicating he is used to. Dmitri is a positive and skilled person. I definitely hope to work with him again in the future.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/denisulanov/"> <img src="https://media-exp1.licdn.com/dms/image/C5603AQGsmSm1XLgNNg/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=shobs-PEG0nHgcRh6jTa7HCOAdpGqsCeqbB71dUzhTk" alt="Denis Ulanov" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/denisulanov/">Denis Ulanov</a></h3>
-                        <h4>Software Engineer at Facebook</h4>
-                        <h6>August 5, 2010, Dmitri worked with Denis in the same group</h6>
-
-                        <p>
-                            I worked with Dmitri during web-development for "Troika Dialog" and can recommend him as a talented web designer and developer. He is responsible specialist, and his skills and knowledges helped our team to create software product of high quality in time.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/dmvolkov/"> <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEBqyhCFTNqoA/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=0YO3E2Vcdv_eqIcTCEKqxyejEYdJjtL65tEPHIVn5fc" alt="Dmitry Volkov" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/dmvolkov/">Dmitry Volkov</a></h3>
-                        <h6>August 4, 2010, Dmitri worked with Dmitry in the same group</h6>
-
-                        <p>
-                            Dmitri is a highly responsible software developer. You can rely upon him. Very accurate in terms and in implementation of requirements.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/jmbaptista/"> <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFdqt1iN2WxvA/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=WVmNT2JEbZGFp2V94zlGuDZmaM1XVcHWDd9OGYQilAI" alt="Jos&eacute; Baptista" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/jmbaptista/">Jos&eacute; Baptista</a></h3>
-                        <h4>COO at Solid FX</h4>
-                        <h6>August 4, 2010, Jos&eacute; was senior to Dmitri but didn&rsquo;t manage directly</h6>
-
-                        <p>
-                            Dmitri is an excellent web developer, a fast learner and a real asset to any software development team. His ability to grasp new techniques and his knowledge of all current web programming paradigms is second to none. I can truly recommend Dmitri as he's a real professional and a great guy as well.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/ali-koncak-595877/"> <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHPX151aofCOg/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=S6WsEt18GAeWlmIP9j20nWWa74QuPilCX87bdM13jx8" alt="Ali Koncak" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/ali-koncak-595877/">Ali Koncak</a></h3>
-                        <h4>Bi and .net developer at Hypoport</h4>
-                        <h6>November 18, 2009, Dmitri worked with Ali in the same group</h6>
-
-                        <p>
-                            Dmitri is an excellent allround developer, he learns very fast and knows everything about web- and servicedevelopment in Microsoft .net and php. He is intelligent and fun to work with.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-			</div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="experience-item">
-                    <div class="experience-image">
-                        <a target="_blank" href="https://www.linkedin.com/in/mikhailkataev/"> <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGWuoXwvXoyKQ/profile-displayphoto-shrink_100_100/0?e=1588204800&amp;v=beta&amp;t=7bHk-86-3Uys-_6Cjj_OZPXjDbjrjyCPQ-dlvoaE_IM" alt="Mikhail Kataev" width="100" height="100" /></a>
-                    </div>
-                    <div class="experience-info">
-                        <h3><a target="_blank" href="https://www.linkedin.com/in/mikhailkataev/">Mikhail Kataev</a></h3>
-                        <h4>Senior Android Developer, Software Architect</h4>
-                        <h6>August 12, 2009, Mikhail worked with Dmitri in different groups</h6>
-
-                        <p>
-                            Dmitri has established himself as a highly skilled programmer and excellent team player while working with EPAM Systems. He can swiftly organize, manage and prioritize his work, implement complex development tasks at a fast pace.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
+        
+        {% endfor %}
     </div>
 </section>

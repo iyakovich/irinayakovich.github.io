@@ -8,7 +8,7 @@
         </div>
 
         <div class="row d-flex">
-            {% assign sorted = (site.data.pluralsight.iq |where level,'expert' | sort:'score' | reverse %}
+            {% assign sorted = (site.data.pluralsight.iq | where: "level","expert" | sort:'score' | reverse) %}
             {% for iq in sorted %}
             <div class="pluralsight-item flex-fill p-3">
                 <div><img src="{{ iq.icon }}" alt="{{ iq.title }}" />

@@ -11,29 +11,30 @@
         {% for recommendation in sorted %}
         {% capture fullName %}{{ recommendation['First Name'] }} {{ recommendation['Last Name'] }}{% endcapture %}
         {% assign link = (site.data.linkedinExtra.connections | where: "Full Name",fullName | first) %}
-      
+
         <div class="row">
             <div class="col-sm-12">
                 <div class="experience-item">
                     <div class="experience-image">
-                        <a target="_blank" href="{{ link.link }}"> 
-                            <img src="/assets/images/recommendations/{{ fullName }}.jpg" alt="{{ fullName }}" width="100" height="100" /></a>
+                        <a target="_blank" href="{{ link.link }}">
+                            <img src="/assets/images/recommendations/{{ fullName }}.jfif" alt="{{ fullName }}"
+                                width="100" height="100" /></a>
                     </div>
                     <div class="experience-info">
 
                         <h3><a target="_blank" href="{{ link.link }}">
-                            {{ fullName }}
-                        </a></h3>
+                                {{ fullName }}
+                            </a></h3>
                         <h4>{{recommendation['Job Title']}} at {{recommendation['Company']}} </h4>
                         <!--<h6>{{recommendation['Creation Date']}}</h6>-->
                         <p>
-                       {{recommendation['Text']}}
+                            {{recommendation['Text']}}
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         {% endfor %}
     </div>
 </section>

@@ -1,0 +1,28 @@
+﻿<section id="experience">
+                <h2>Experience</h2>
+      
+
+        {% assign sorted = (site.data.linkedin.Positions) %}
+        {% for position in sorted %}
+        {% assign companyInfo = (site.data.linkedinExtra.companies | where: "name" ,position["Company Name"] | first) %}
+        {% assign description = (position['Description'] | replace: "- ", "<br>- ")%}
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="experience-item">
+                     <div class="experience-image"><img
+                            src="{{companyInfo['logo']}}"
+                            alt="{{position['Company Name']}}" width=70 /></div> 
+                    <div class="experience-info">
+                        <h3>{{position['Title']}}</h3>
+                        <h4><a href="{{companyInfo['url']}}" target="_blank">{{position['Company Name']}}</a> / 
+                      {{position['Started On']}} - {{position['Finished On']}}</h4>
+                        <p>{{ description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>       
+        
+
+        {% endfor %}
+        <hr>
+</section>

@@ -1,0 +1,6 @@
+<div>
+    {% assign profile = (site.data.linkedin.Profile  | first ) %}
+    {% capture fullName %}{{ profile['First Name'] }} {{ profile['Last Name'] }}{% endcapture %}
+    <p class="name">{{fullName}}</p>
+    <p class="title">{{profile["Headline"]}}</p>
+</div>

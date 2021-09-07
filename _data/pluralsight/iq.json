@@ -1,190 +1,242 @@
-[{
-   icon: "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png",
-   level: "expert",
-   percentile: "95th",
-   score: "244",
-   title: "Data Modeling",
-   verifiedDate: "VERIFIED 6.3.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/csharp-e7b8fcd4ce.png",
-   level: "proficient",
-   percentile: "68th",
-   score: "178",
-   title: "C# Coding Practices",
-   verifiedDate: "VERIFIED 5.29.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/microservices-49f6448019.png",
-   level: "expert",
-   percentile: "93rd",
-   score: "235",
-   title: "Microservices Architecture",
-   verifiedDate: "VERIFIED 5.29.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-   level: "proficient",
-   percentile: "23rd",
-   score: "107",
-   title: "Application Security on Microsoft Azure",
-   verifiedDate: "VERIFIED 5.29.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/react-0f6558f88f.png",
-   level: "proficient",
-   percentile: "25th",
-   score: "110",
-   title: "React",
-   verifiedDate: "VERIFIED 5.29.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/angular-14a0f6532f.png",
-   level: "proficient",
-   percentile: "38th",
-   score: "131",
-   title: "Angular",
-   verifiedDate: "VERIFIED 5.29.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/macmanagementbasics-17fcd0c81c.png",
-   level: "expert",
-   percentile: "91st",
-   score: "229",
-   title: "Querying Data with T-SQL",
-   verifiedDate: "VERIFIED 5.27.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/assessments/images/icons/php-5712173c10.png",
-   level: "proficient",
-   percentile: "71st",
-   score: "182",
-   title: "PHP",
-   verifiedDate: "VERIFIED 5.27.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-   level: "expert",
-   percentile: "93rd",
-   score: "237",
-   title: "Designing Microsoft Azure Applications",
-   verifiedDate: "VERIFIED 5.27.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-   level: "expert",
-   percentile: "97th",
-   score: "258",
-   title: "Application Development on Microsoft Azure",
-   verifiedDate: "VERIFIED 5.27.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/scrum-a5c44d8364.png",
-   level: "expert",
-   percentile: "90th",
-   score: "224",
-   title: "Using the Scrum Framework",
-   verifiedDate: "VERIFIED 5.1.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/assessments/images/icons/no-logo-jAtNDcyYi00ZWJ.png",
-   level: "expert",
-   percentile: "86th",
-   score: "212",
-   title: "Scrum Master",
-   verifiedDate: "VERIFIED 4.30.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/macmanagementbasics-17fcd0c81c.png",
-   level: "expert",
-   percentile: "90th",
-   score: "226",
-   title: "Managing Source Code with Git",
-   verifiedDate: "VERIFIED 4.15.2020"
- }, {
-   icon: "https://pluralsight.imgix.net/paths/path-icons/html5-7ac65c8ec0.png",
-   level: "expert",
-   percentile: "97th",
-   score: "256",
-   title: "HTML5",
-   verifiedDate: "VERIFIED 4.15.2020"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png",
-   level: "expert",
-   percentile: "90th",
-   score: "224",
-   title: "JavaScript",
-   verifiedDate: "VERIFIED 3.31.2020"
- }, {
-   icon: "https://pluralsight.imgix.net/paths/path-icons/java-79830005fe.png",
-   level: "proficient",
-   percentile: "39th",
-   score: "133",
-   title: "Java",
-   verifiedDate: "VERIFIED 10.14.2019"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png",
-   level: "expert",
-   percentile: "97th",
-   score: "257",
-   title: "Understanding DevOps",
-   verifiedDate: "VERIFIED 10.14.2019"
- }, {
-   icon: "https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png",
-   level: "expert",
-   percentile: "95th",
-   score: "244",
-   title: "C#",
-   verifiedDate: "VERIFIED 10.11.2019"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/visualstudio-2019-62bfdf4c9e.png",
-   level: "expert",
-   percentile: "97th",
-   score: "257",
-   title: "Visual Studio 2019",
-   verifiedDate: "VERIFIED 10.9.2019"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/dot-net-e535ca86d0.png",
-   level: "expert",
-   percentile: "86th",
-   score: "213",
-   title: "ASP.NET Core",
-   verifiedDate: "VERIFIED 2.14.2019"
- }, {
-   icon: "https://pluralsight2.imgix.net/assessments/images/icons/json-cqU533dp9QmQ.png",
-   level: "proficient",
-   percentile: "73rd",
-   score: "187",
-   title: "JSON",
-   verifiedDate: "VERIFIED 2.8.2019"
- }, {
-   icon: "https://pluralsight.imgix.net/paths/path-icons/css-c9b214f0d7.png",
-   level: "expert",
-   percentile: "90th",
-   score: "224",
-   title: "CSS",
-   verifiedDate: "VERIFIED 2.6.2019"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-   level: "expert",
-   percentile: "82nd",
-   score: "204",
-   title: "Entity Framework Core",
-   verifiedDate: "VERIFIED 2.6.2019"
- }, {
-   icon: "https://pluralsight2.imgix.net/assessments/images/icons/windows-ee0dacafe8.png",
-   level: "expert",
-   percentile: "96th",
-   score: "254",
-   title: "Visual Studio 2017",
-   verifiedDate: "VERIFIED 2.1.2019"
- }, {
-   icon: "https://pluralsight2.imgix.net/paths/images/comptia-security-plus-5d8ab8e621.png",
-   level: "expert",
-   percentile: "85th",
-   score: "211",
-   title: "Web Application Security",
-   verifiedDate: "VERIFIED 1.22.2019"
- }, {
-   icon: "https://pluralsight.imgix.net/paths/path-icons/asp-dot-net-862e3669aa.png",
-   level: "expert",
-   percentile: "93rd",
-   score: "238",
-   title: "ASP.NET MVC5",
-   verifiedDate: "VERIFIED 1.22.2019"
- }, {
-   icon: "https://pluralsight.imgix.net/paths/path-icons/jquery-c93ba170c1.png",
-   level: "expert",
-   percentile: "90th",
-   score: "224",
-   title: "jQuery",
-   verifiedDate: "VERIFIED 1.21.2019"
- }]
+
+[
+    {
+        "title": "Building Web Applications with Angular",
+        "icon": "https://pluralsight2.imgix.net/paths/images/angular-14a0f6532f.png",
+        "percentile": "40th",
+        "verifiedDate": "VERIFIED 9.7.2021",
+        "score": "136",
+        "level": "proficient"
+    },
+    {
+        "title": "C# Coding Practices",
+        "icon": "https://pluralsight2.imgix.net/paths/images/csharp-e7b8fcd4ce.png",
+        "percentile": "97th",
+        "verifiedDate": "VERIFIED 9.6.2021",
+        "score": "256",
+        "level": "expert"
+    },
+    {
+        "title": "Continuous Delivery on Azure for DevOps Engineers",
+        "icon": "https://pluralsight2.imgix.net/paths/images/mcsa-ee0dacafe8.png",
+        "percentile": "81st",
+        "verifiedDate": "VERIFIED 6.25.2020",
+        "score": "203",
+        "level": "expert"
+    },
+    {
+        "title": "Microsoft Azure Compute for Developers",
+        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
+        "percentile": "83rd",
+        "verifiedDate": "VERIFIED 6.18.2020",
+        "score": "207",
+        "level": "expert"
+    },
+    {
+        "title": "Microsoft Azure for Developers",
+        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
+        "percentile": "",
+        "verifiedDate": "",
+        "level": ""
+    },
+    {
+        "title": "Data Modeling",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png",
+        "percentile": "95th",
+        "verifiedDate": "VERIFIED 6.3.2020",
+        "score": "244",
+        "level": "expert"
+    },
+    {
+        "title": "Microservices Architecture",
+        "icon": "https://pluralsight2.imgix.net/paths/images/microservices-49f6448019.png",
+        "percentile": "93rd",
+        "verifiedDate": "VERIFIED 5.29.2020",
+        "score": "235",
+        "level": "expert"
+    },
+    {
+        "title": "Application Security on Microsoft Azure",
+        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
+        "percentile": "23rd",
+        "verifiedDate": "VERIFIED 5.29.2020",
+        "score": "107",
+        "level": "proficient"
+    },
+    {
+        "title": "Building Web Applications With React",
+        "icon": "https://pluralsight2.imgix.net/paths/images/react-0f6558f88f.png",
+        "percentile": "25th",
+        "verifiedDate": "VERIFIED 5.29.2020",
+        "score": "110",
+        "level": "proficient"
+    },
+    {
+        "title": "Querying Data with T-SQL",
+        "icon": "https://pluralsight2.imgix.net/paths/images/macmanagementbasics-17fcd0c81c.png",
+        "percentile": "91st",
+        "verifiedDate": "VERIFIED 5.27.2020",
+        "score": "229",
+        "level": "expert"
+    },
+    {
+        "title": "PHP Development and Tooling",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/php-5712173c10.png",
+        "percentile": "71st",
+        "verifiedDate": "VERIFIED 5.27.2020",
+        "score": "182",
+        "level": "proficient"
+    },
+    {
+        "title": "Designing Microsoft Azure Applications",
+        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
+        "percentile": "93rd",
+        "verifiedDate": "VERIFIED 5.27.2020",
+        "score": "237",
+        "level": "expert"
+    },
+    {
+        "title": "Application Development on Microsoft Azure",
+        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
+        "percentile": "97th",
+        "verifiedDate": "VERIFIED 5.27.2020",
+        "score": "258",
+        "level": "expert"
+    },
+    {
+        "title": "Using the Scrum Framework",
+        "icon": "https://pluralsight2.imgix.net/paths/images/scrum-a5c44d8364.png",
+        "percentile": "90th",
+        "verifiedDate": "VERIFIED 5.1.2020",
+        "score": "224",
+        "level": "expert"
+    },
+    {
+        "title": "Scrum Master",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/no-logo-jAtNDcyYi00ZWJ.png",
+        "percentile": "86th",
+        "verifiedDate": "VERIFIED 4.30.2020",
+        "score": "212",
+        "level": "expert"
+    },
+    {
+        "title": "Managing Source Code with Git",
+        "icon": "https://pluralsight2.imgix.net/paths/images/macmanagementbasics-17fcd0c81c.png",
+        "percentile": "90th",
+        "verifiedDate": "VERIFIED 4.15.2020",
+        "score": "226",
+        "level": "expert"
+    },
+    {
+        "title": "HTML5",
+        "icon": "https://pluralsight.imgix.net/paths/path-icons/html5-7ac65c8ec0.png",
+        "percentile": "97th",
+        "verifiedDate": "VERIFIED 4.15.2020",
+        "score": "256",
+        "level": "expert"
+    },
+    {
+        "title": "JavaScript Core Language",
+        "icon": "https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png",
+        "percentile": "90th",
+        "verifiedDate": "VERIFIED 3.31.2020",
+        "score": "224",
+        "level": "expert"
+    },
+    {
+        "title": "Java",
+        "icon": "https://pluralsight.imgix.net/paths/path-icons/java-79830005fe.png",
+        "percentile": "39th",
+        "verifiedDate": "VERIFIED 10.14.2019",
+        "score": "133",
+        "level": "proficient"
+    },
+    {
+        "title": "Understanding DevOps",
+        "icon": "https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png",
+        "percentile": "97th",
+        "verifiedDate": "VERIFIED 10.14.2019",
+        "score": "257",
+        "level": "expert"
+    },
+    {
+        "title": "C#",
+        "icon": "https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png",
+        "percentile": "95th",
+        "verifiedDate": "VERIFIED 10.11.2019",
+        "score": "244",
+        "level": "expert"
+    },
+    {
+        "title": "Visual Studio 2019",
+        "icon": "https://pluralsight2.imgix.net/paths/images/visualstudio-2019-62bfdf4c9e.png",
+        "percentile": "97th",
+        "verifiedDate": "VERIFIED 10.9.2019",
+        "score": "257",
+        "level": "expert"
+    },
+    {
+        "title": "ASP.NET Core",
+        "icon": "https://pluralsight2.imgix.net/paths/images/dot-net-e535ca86d0.png",
+        "percentile": "86th",
+        "verifiedDate": "VERIFIED 2.14.2019",
+        "score": "213",
+        "level": "expert"
+    },
+    {
+        "title": "JSON",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/json-cqU533dp9QmQ.png",
+        "percentile": "73rd",
+        "verifiedDate": "VERIFIED 2.8.2019",
+        "score": "187",
+        "level": "proficient"
+    },
+    {
+        "title": "CSS",
+        "icon": "https://pluralsight.imgix.net/paths/path-icons/css-c9b214f0d7.png",
+        "percentile": "90th",
+        "verifiedDate": "VERIFIED 2.6.2019",
+        "score": "224",
+        "level": "expert"
+    },
+    {
+        "title": "Entity Framework Core",
+        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
+        "percentile": "82nd",
+        "verifiedDate": "VERIFIED 2.6.2019",
+        "score": "204",
+        "level": "expert"
+    },
+    {
+        "title": "Visual Studio 2017",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/windows-ee0dacafe8.png",
+        "percentile": "96th",
+        "verifiedDate": "VERIFIED 2.1.2019",
+        "score": "254",
+        "level": "expert"
+    },
+    {
+        "title": "Web Application Security",
+        "icon": "https://pluralsight2.imgix.net/paths/images/comptia-security-plus-5d8ab8e621.png",
+        "percentile": "85th",
+        "verifiedDate": "VERIFIED 1.22.2019",
+        "score": "211",
+        "level": "expert"
+    },
+    {
+        "title": "ASP.NET MVC5",
+        "icon": "https://pluralsight.imgix.net/paths/path-icons/asp-dot-net-862e3669aa.png",
+        "percentile": "93rd",
+        "verifiedDate": "VERIFIED 1.22.2019",
+        "score": "238",
+        "level": "expert"
+    },
+    {
+        "title": "Building Dynamic Websites with jQuery",
+        "icon": "https://pluralsight.imgix.net/paths/path-icons/jquery-c93ba170c1.png",
+        "percentile": "90th",
+        "verifiedDate": "VERIFIED 1.21.2019",
+        "score": "224",
+        "level": "expert"
+    }
+]

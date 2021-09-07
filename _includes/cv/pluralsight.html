@@ -1,6 +1,6 @@
 <section id="pluralsight">
 
-    <h2>Skills (Pluralsight IQs)</h2>
+    <h2><a href="https://app.pluralsight.com/profile/dmitri-tsoy" target="_blank">Skills</a></h2>
 
     {% assign sorted = (site.data.pluralsight.iq | where: "level","expert" | sort:'score' | reverse) %}
     {% for iq in sorted %}

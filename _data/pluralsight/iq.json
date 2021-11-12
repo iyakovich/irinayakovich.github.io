@@ -1,12 +1,35 @@
-
 [
     {
-        "title": "Building Web Applications with Angular",
-        "icon": "https://pluralsight2.imgix.net/paths/images/angular-14a0f6532f.png",
-        "percentile": "40th",
-        "verifiedDate": "VERIFIED 9.7.2021",
-        "score": "136",
-        "level": "proficient"
+        "title": "Developing SQL Server Databases",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png",
+        "percentile": "94th",
+        "verifiedDate": "VERIFIED 11.11.2021",
+        "score": "239",
+        "level": "expert"
+    },
+    {
+        "title": "Microsoft Power BI for Analysts",
+        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
+        "percentile": "81st",
+        "verifiedDate": "VERIFIED 11.11.2021",
+        "score": "201",
+        "level": "expert"
+    },
+    {
+        "title": "Building Websites with HTML, CSS, and JavaScript",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/no-logo-jAtNDcyYi00ZWJ.png",
+        "percentile": "90th",
+        "verifiedDate": "VERIFIED 9.30.2021",
+        "score": "226",
+        "level": "expert"
+    },
+    {
+        "title": "On-Line Analytical Processing with Microsoft SSAS",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png",
+        "percentile": "82nd",
+        "verifiedDate": "VERIFIED 9.15.2021",
+        "score": "204",
+        "level": "expert"
     },
     {
         "title": "C# Coding Practices",
@@ -35,9 +58,10 @@
     {
         "title": "Microsoft Azure for Developers",
         "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-        "percentile": "",
-        "verifiedDate": "",
-        "level": ""
+        "percentile": "81st",
+        "verifiedDate": "VERIFIED 6.8.2020",
+        "score": "203",
+        "level": "expert"
     },
     {
         "title": "Data Modeling",
@@ -56,36 +80,12 @@
         "level": "expert"
     },
     {
-        "title": "Application Security on Microsoft Azure",
-        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-        "percentile": "23rd",
-        "verifiedDate": "VERIFIED 5.29.2020",
-        "score": "107",
-        "level": "proficient"
-    },
-    {
-        "title": "Building Web Applications With React",
-        "icon": "https://pluralsight2.imgix.net/paths/images/react-0f6558f88f.png",
-        "percentile": "25th",
-        "verifiedDate": "VERIFIED 5.29.2020",
-        "score": "110",
-        "level": "proficient"
-    },
-    {
         "title": "Querying Data with T-SQL",
         "icon": "https://pluralsight2.imgix.net/paths/images/macmanagementbasics-17fcd0c81c.png",
         "percentile": "91st",
         "verifiedDate": "VERIFIED 5.27.2020",
         "score": "229",
         "level": "expert"
-    },
-    {
-        "title": "PHP Development and Tooling",
-        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/php-5712173c10.png",
-        "percentile": "71st",
-        "verifiedDate": "VERIFIED 5.27.2020",
-        "score": "182",
-        "level": "proficient"
     },
     {
         "title": "Designing Microsoft Azure Applications",
@@ -144,14 +144,6 @@
         "level": "expert"
     },
     {
-        "title": "Java",
-        "icon": "https://pluralsight.imgix.net/paths/path-icons/java-79830005fe.png",
-        "percentile": "39th",
-        "verifiedDate": "VERIFIED 10.14.2019",
-        "score": "133",
-        "level": "proficient"
-    },
-    {
         "title": "Understanding DevOps",
         "icon": "https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png",
         "percentile": "97th",
@@ -182,14 +174,6 @@
         "verifiedDate": "VERIFIED 2.14.2019",
         "score": "213",
         "level": "expert"
-    },
-    {
-        "title": "JSON",
-        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/json-cqU533dp9QmQ.png",
-        "percentile": "73rd",
-        "verifiedDate": "VERIFIED 2.8.2019",
-        "score": "187",
-        "level": "proficient"
     },
     {
         "title": "CSS",

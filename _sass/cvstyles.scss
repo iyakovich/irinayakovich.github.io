@@ -161,4 +161,10 @@ section {
     a[href]:after {
         content: none !important;
     }
+    
+    header {
+        .title, .name {
+            color:black
+        }
+    }
 }

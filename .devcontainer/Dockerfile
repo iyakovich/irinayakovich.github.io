@@ -28,7 +28,7 @@ RUN apt-get update \
     #
     # Install node.js
     && apt-get -y install curl software-properties-common \
-    && curl -sL https://deb.nodesource.com/setup_13.x | bash - \
+    && curl -sL https://deb.nodesource.com/setup_14.x | bash - \
     && apt-get -y install nodejs \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.

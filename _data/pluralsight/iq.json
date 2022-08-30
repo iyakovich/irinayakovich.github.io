@@ -1,14 +1,40 @@
 [
     {
-        "title": ".NET Microservices",
+        "title": "Azure",
+        "icon": "https://pluralsight2.imgix.net/paths/images/mcsa-ee0dacafe8.png",
+        "level": "> 5 years"
+    },
+    {
+        "title": "C#",
+        "icon": "https://pluralsight2.imgix.net/paths/images/csharp-e7b8fcd4ce.png",
+        "level": "> 10 years"
+    },
+    {
+        "title": "Python",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/python-7be70baaac.png",
+        "level": "> 2 years"
+    },
+    {
+        "title": "Terraform",
         "icon": "https://pluralsight2.imgix.net/assessments/images/icons/no-logo-jAtNDcyYi00ZWJ.png",
-        "percentile": "84th",
-        "verifiedDate": "VERIFIED 11.12.2021",
-        "score": "209",
+        "level": "> 2 years"
+    },
+    {
+        "title": "Docker",
+        "icon": "https://pluralsight2.imgix.net/paths/images/docker-copy-3135ce60d0.png",
+    },
+    {
+        "title": "Kubernetes",
+        "icon": "https://pluralsight2.imgix.net/paths/images/kubernetes-fec49f3ad6.png",
+        "level": "> 2 years"
+    },
+    {
+        "title": ".NET Core",
+        "icon": "https://pluralsight2.imgix.net/paths/images/dot-net-e535ca86d0.png",
         "level": "expert"
     },
     {
-        "title": "Developing SQL Server Databases",
+        "title": "Microsoft SQL Server",
         "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png",
         "percentile": "94th",
         "verifiedDate": "VERIFIED 11.11.2021",
@@ -16,219 +42,43 @@
         "level": "expert"
     },
     {
-        "title": "Microsoft Power BI for Analysts",
-        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-        "percentile": "81st",
-        "verifiedDate": "VERIFIED 11.11.2021",
-        "score": "201",
-        "level": "expert"
-    },
-    {
-        "title": "Building Websites with HTML, CSS, and JavaScript",
-        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/no-logo-jAtNDcyYi00ZWJ.png",
-        "percentile": "90th",
-        "verifiedDate": "VERIFIED 9.30.2021",
-        "score": "226",
-        "level": "expert"
-    },
-    {
-        "title": "On-Line Analytical Processing with Microsoft SSAS",
-        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png",
-        "percentile": "82nd",
-        "verifiedDate": "VERIFIED 9.15.2021",
-        "score": "204",
-        "level": "expert"
-    },
-    {
-        "title": "C# Coding Practices",
-        "icon": "https://pluralsight2.imgix.net/paths/images/csharp-e7b8fcd4ce.png",
-        "percentile": "97th",
-        "verifiedDate": "VERIFIED 9.6.2021",
-        "score": "256",
-        "level": "expert"
-    },
-    {
-        "title": "Continuous Delivery on Azure for DevOps Engineers",
-        "icon": "https://pluralsight2.imgix.net/paths/images/mcsa-ee0dacafe8.png",
-        "percentile": "81st",
-        "verifiedDate": "VERIFIED 6.25.2020",
-        "score": "203",
-        "level": "expert"
-    },
-    {
-        "title": "Microsoft Azure Compute for Developers",
-        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-        "percentile": "83rd",
-        "verifiedDate": "VERIFIED 6.18.2020",
-        "score": "207",
-        "level": "expert"
-    },
-    {
-        "title": "Microsoft Azure for Developers",
-        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-        "percentile": "81st",
-        "verifiedDate": "VERIFIED 6.8.2020",
-        "score": "203",
-        "level": "expert"
-    },
-    {
-        "title": "Data Modeling",
-        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png",
-        "percentile": "95th",
-        "verifiedDate": "VERIFIED 6.3.2020",
-        "score": "244",
+        "title": "CI/CD Pipelines",
+        "icon": "https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png",
         "level": "expert"
     },
     {
         "title": "Microservices Architecture",
         "icon": "https://pluralsight2.imgix.net/paths/images/microservices-49f6448019.png",
-        "percentile": "93rd",
-        "verifiedDate": "VERIFIED 5.29.2020",
-        "score": "235",
         "level": "expert"
     },
     {
-        "title": "Querying Data with T-SQL",
-        "icon": "https://pluralsight2.imgix.net/paths/images/macmanagementbasics-17fcd0c81c.png",
-        "percentile": "91st",
-        "verifiedDate": "VERIFIED 5.27.2020",
-        "score": "229",
-        "level": "expert"
-    },
-    {
-        "title": "Designing Microsoft Azure Applications",
-        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-        "percentile": "93rd",
-        "verifiedDate": "VERIFIED 5.27.2020",
-        "score": "237",
-        "level": "expert"
-    },
-    {
-        "title": "Application Development on Microsoft Azure",
-        "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-        "percentile": "97th",
-        "verifiedDate": "VERIFIED 5.27.2020",
-        "score": "258",
-        "level": "expert"
-    },
-    {
-        "title": "Using the Scrum Framework",
-        "icon": "https://pluralsight2.imgix.net/paths/images/scrum-a5c44d8364.png",
-        "percentile": "90th",
-        "verifiedDate": "VERIFIED 5.1.2020",
-        "score": "224",
+        "title": "PostgresSQL",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png?w=60",
         "level": "expert"
     },
     {
         "title": "Scrum Master",
         "icon": "https://pluralsight2.imgix.net/assessments/images/icons/no-logo-jAtNDcyYi00ZWJ.png",
-        "percentile": "86th",
-        "verifiedDate": "VERIFIED 4.30.2020",
-        "score": "212",
         "level": "expert"
     },
     {
-        "title": "Managing Source Code with Git",
-        "icon": "https://pluralsight2.imgix.net/paths/images/macmanagementbasics-17fcd0c81c.png",
-        "percentile": "90th",
-        "verifiedDate": "VERIFIED 4.15.2020",
-        "score": "226",
+        "title": "Angular",
+        "icon": "https://pluralsight.imgix.net/paths/path-icons/angular-14a0f6532f.png",
         "level": "expert"
     },
     {
-        "title": "HTML5",
-        "icon": "https://pluralsight.imgix.net/paths/path-icons/html5-7ac65c8ec0.png",
-        "percentile": "97th",
-        "verifiedDate": "VERIFIED 4.15.2020",
-        "score": "256",
-        "level": "expert"
-    },
-    {
-        "title": "JavaScript Core Language",
-        "icon": "https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png",
-        "percentile": "90th",
-        "verifiedDate": "VERIFIED 3.31.2020",
-        "score": "224",
-        "level": "expert"
-    },
-    {
-        "title": "Understanding DevOps",
-        "icon": "https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png",
-        "percentile": "97th",
-        "verifiedDate": "VERIFIED 10.14.2019",
-        "score": "257",
-        "level": "expert"
-    },
-    {
-        "title": "C#",
-        "icon": "https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png",
-        "percentile": "95th",
-        "verifiedDate": "VERIFIED 10.11.2019",
-        "score": "244",
-        "level": "expert"
-    },
-    {
-        "title": "Visual Studio 2019",
-        "icon": "https://pluralsight2.imgix.net/paths/images/visualstudio-2019-62bfdf4c9e.png",
-        "percentile": "97th",
-        "verifiedDate": "VERIFIED 10.9.2019",
-        "score": "257",
-        "level": "expert"
-    },
-    {
-        "title": "ASP.NET Core",
-        "icon": "https://pluralsight2.imgix.net/paths/images/dot-net-e535ca86d0.png",
-        "percentile": "86th",
-        "verifiedDate": "VERIFIED 2.14.2019",
-        "score": "213",
-        "level": "expert"
-    },
-    {
-        "title": "CSS",
-        "icon": "https://pluralsight.imgix.net/paths/path-icons/css-c9b214f0d7.png",
-        "percentile": "90th",
-        "verifiedDate": "VERIFIED 2.6.2019",
-        "score": "224",
-        "level": "expert"
-    },
-    {
-        "title": "Entity Framework Core",
+        "title": "Entity Framework",
         "icon": "https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png",
-        "percentile": "82nd",
-        "verifiedDate": "VERIFIED 2.6.2019",
-        "score": "204",
         "level": "expert"
     },
     {
-        "title": "Visual Studio 2017",
-        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/windows-ee0dacafe8.png",
-        "percentile": "96th",
-        "verifiedDate": "VERIFIED 2.1.2019",
-        "score": "254",
+        "title": "TypeScript",
+        "icon": "https://pluralsight2.imgix.net/paths/images/typescript-1169369a3e.png",
         "level": "expert"
     },
     {
-        "title": "Web Application Security",
-        "icon": "https://pluralsight2.imgix.net/paths/images/comptia-security-plus-5d8ab8e621.png",
-        "percentile": "85th",
-        "verifiedDate": "VERIFIED 1.22.2019",
-        "score": "211",
+        "title": "Vue.js",
+        "icon": "https://pluralsight2.imgix.net/paths/images/vue-7945830e6c.js.png",
         "level": "expert"
     },
-    {
-        "title": "ASP.NET MVC5",
-        "icon": "https://pluralsight.imgix.net/paths/path-icons/asp-dot-net-862e3669aa.png",
-        "percentile": "93rd",
-        "verifiedDate": "VERIFIED 1.22.2019",
-        "score": "238",
-        "level": "expert"
-    },
-    {
-        "title": "Building Dynamic Websites with jQuery",
-        "icon": "https://pluralsight.imgix.net/paths/path-icons/jquery-c93ba170c1.png",
-        "percentile": "90th",
-        "verifiedDate": "VERIFIED 1.21.2019",
-        "score": "224",
-        "level": "expert"
-    }
 ]

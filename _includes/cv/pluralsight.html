@@ -1,16 +1,16 @@
 <section id="pluralsight">
 
-    <h2><a href="https://app.pluralsight.com/profile/dmitri-tsoy" target="_blank">Skills</a></h2>
+    <h2>Skills</h2>
 
-    {% assign sorted = (site.data.pluralsight.iq | where: "level","expert" | sort:'score' | reverse) %}
-    {% for iq in sorted %}
+    {% for iq in site.data.pluralsight.iq %}
     <div class="pluralsight-item aligned-image">
             <div class="image">
                 <img src="{{ iq.icon }}" alt="{{ iq.title }}" />
             </div>
-            <div class="content">
+            <div class="content"  align-content="center">
+                <br>
                 {{ iq.title }}
-                <br> {{ iq.level }} / {{ iq.percentile }} percentile
+                <br>
             </div>
             <!--<div><b>{{ iq.level }} {{ iq.score }}</b></div>
                     <div><b>{{ iq.percentile }}</b> percentile</div>-->

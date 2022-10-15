@@ -6,9 +6,9 @@
     {% for position in sorted %}
     {% assign companyInfo = (site.data.linkedinExtra.companies | where: "name" ,position["Company Name"] | first) %}
     {% assign description = (position['Description'] | replace: "Skills", "<br><br><b>Skills</b> "| replace: "•	", "<br>• ")%}
-    <div class="row">
+    <div class="row no-break">
         <div class="col-sm-12">
-            <div class="experience-item no-break">
+            <div class="experience-item">
                 <div class="experience-image"><img src="{{companyInfo['logo']}}" alt="{{position['Company Name']}}"
                         width=70 /></div>
                 <div class="experience-info">

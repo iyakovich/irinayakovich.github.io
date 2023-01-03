@@ -1,8 +1,8 @@
 [
     {
-        "title": "Azure",
-        "icon": "https://pluralsight2.imgix.net/paths/images/mcsa-ee0dacafe8.png",
-        "level": "> 5 years"
+        "title": "Microservices Architecture",
+        "icon": "https://pluralsight2.imgix.net/paths/images/microservices-49f6448019.png",
+        "level": "expert"
     },
     {
         "title": "C#",
@@ -13,6 +13,11 @@
         "title": "Python",
         "icon": "https://pluralsight2.imgix.net/assessments/images/icons/python-7be70baaac.png",
         "level": "> 2 years"
+    },
+    {
+        "title": "TypeScript",
+        "icon": "https://pluralsight2.imgix.net/paths/images/typescript-1169369a3e.png",
+        "level": "expert"
     },
     {
         "title": "Terraform",
@@ -28,10 +33,20 @@
         "icon": "https://pluralsight2.imgix.net/paths/images/kubernetes-fec49f3ad6.png",
         "level": "> 2 years"
     },
+        {
+        "title": "CI/CD Pipelines",
+        "icon": "https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png",
+        "level": "expert"
+    },
     {
         "title": ".NET Core",
         "icon": "https://pluralsight2.imgix.net/paths/images/dot-net-e535ca86d0.png",
         "level": "expert"
+    },
+    {
+        "title": "Azure Cloud",
+        "icon": "https://pluralsight2.imgix.net/paths/images/mcsa-ee0dacafe8.png",
+        "level": "> 5 years"
     },
     {
         "title": "Microsoft SQL Server",
@@ -39,16 +54,6 @@
         "percentile": "94th",
         "verifiedDate": "VERIFIED 11.11.2021",
         "score": "239",
-        "level": "expert"
-    },
-    {
-        "title": "CI/CD Pipelines",
-        "icon": "https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png",
-        "level": "expert"
-    },
-    {
-        "title": "Microservices Architecture",
-        "icon": "https://pluralsight2.imgix.net/paths/images/microservices-49f6448019.png",
         "level": "expert"
     },
     {
@@ -67,13 +72,13 @@
         "level": "expert"
     },
     {
-        "title": "TypeScript",
-        "icon": "https://pluralsight2.imgix.net/paths/images/typescript-1169369a3e.png",
+        "title": "React",
+        "icon": "https://pluralsight2.imgix.net/paths/images/react-0f6558f88f.png",
         "level": "expert"
     },
     {
         "title": "Vue.js",
         "icon": "https://pluralsight2.imgix.net/paths/images/vue-7945830e6c.js.png",
         "level": "expert"
-    },
+    }
 ]

@@ -1,8 +1,13 @@
 ﻿<section id="experience">
     <h2>Experience</h2>
 
-
     {% assign sorted = (site.data.linkedin.Positions) %}
+    {% if page.version == "python" %}
+        {% assign sorted = (site.data.linkedin.Positions_python) %}
+    {% endif %}
+    {% if page.version == "dotnet" %}
+        {% assign sorted = (site.data.linkedin.Positions_dotnet) %}
+    {% endif %}
     {% for position in sorted %}
     {% assign companyInfo = (site.data.linkedinExtra.companies | where: "name" ,position["Company Name"] | first) %}
     {% assign description = (position['Description'] | replace: "Skills", "<br><br><b>Skills</b>"| replace: "•	", "<br>• ")%}

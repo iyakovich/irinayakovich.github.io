@@ -8,6 +8,9 @@
     {% if page.version == "dotnet" %}
         {% assign sorted = (site.data.linkedin.Positions_dotnet) %}
     {% endif %}
+    {% if page.version == "architecht" %}
+        {% assign sorted = (site.data.linkedin.Positions_architecht) %}
+    {% endif %}
     {% for position in sorted %}
     {% assign companyInfo = (site.data.linkedinExtra.companies | where: "name" ,position["Company Name"] | first) %}
     {% assign description = (position['Description'] | replace: "Skills", "<br><br><b>Skills</b>"| replace: "•	", "<br>• ")%}

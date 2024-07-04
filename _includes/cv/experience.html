@@ -9,7 +9,7 @@
         {% assign sorted = (site.data.linkedin.Positions_dotnet) %}
     {% endif %}
     {% if page.version == "architect" %}
-        {% assign sorted = (site.data.linkedin.Positions_architecht) %}
+        {% assign sorted = (site.data.linkedin.Positions_architect) %}
     {% endif %}
     {% for position in sorted %}
     {% assign companyInfo = (site.data.linkedinExtra.companies | where: "name" ,position["Company Name"] | first) %}

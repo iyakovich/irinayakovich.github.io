@@ -33,9 +33,19 @@
         "icon": "https://pluralsight2.imgix.net/paths/images/kubernetes-fec49f3ad6.png",
         "level": "> 2 years"
     },
-        {
+    {
         "title": "CI/CD Pipelines",
         "icon": "https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png",
+        "level": "expert"
+    },
+    {
+        "title": "Kafka",
+        "icon": "assets/images/skills/kafka.png",
+        "level": "expert"
+    },
+    {
+        "title": "Snowflake",
+        "icon": "https://pluralsight2.imgix.net/paths/images/snow-flake-08c8c3a0b5.png",
         "level": "expert"
     },
     {

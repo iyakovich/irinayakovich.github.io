@@ -45,7 +45,7 @@
     },
     {
         "title": "Snowflake",
-        "icon": "/assets/images/skills/snowflake.png",
+        "icon": "/https://pluralsight2.imgix.net/paths/images/snow-flake-08c8c3a0b5.png?w=60",
         "level": "expert"
     },
     {
@@ -60,7 +60,7 @@
     },
     {
         "title": "Microsoft SQL Server",
-        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png",
+        "icon": "https://pluralsight2.imgix.net/paths/images/sql-2e1da4f3d3.png?w=60",
         "percentile": "94th",
         "verifiedDate": "VERIFIED 11.11.2021",
         "score": "239",

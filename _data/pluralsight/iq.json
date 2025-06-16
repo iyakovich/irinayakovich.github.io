@@ -40,7 +40,7 @@
     },
     {
         "title": "Kafka",
-        "icon": "assets/images/skills/kafka.png",
+        "icon": "/assets/images/skills/kafka.png",
         "level": "expert"
     },
     {

@@ -85,10 +85,5 @@
         "title": "React",
         "icon": "https://pluralsight2.imgix.net/paths/images/react-0f6558f88f.png",
         "level": "expert"
-    },
-    {
-        "title": "Vue.js",
-        "icon": "https://pluralsight2.imgix.net/paths/images/vue-7945830e6c.js.png",
-        "level": "expert"
     }
 ]

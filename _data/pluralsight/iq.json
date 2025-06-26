@@ -38,16 +38,16 @@
         "icon": "https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png",
         "level": "expert"
     },
-    // {
-    //     "title": "Kafka",
-    //     "icon": "/assets/images/skills/kafka_5.png",
-    //     "level": "expert"
-    // },
-    // {
-    //     "title": "Snowflake",
-    //     "icon": "/assets/images/skills/snowflake_5.png",
-    //     "level": "expert"
-    // },
+    {
+        "title": "Kafka",
+        "icon": "/assets/images/skills/kafka_5.png",
+        "level": "expert"
+    },
+    {
+        "title": "Snowflake",
+        "icon": "/assets/images/skills/snowflake_5.png",
+        "level": "expert"
+    },
     {
         "title": ".NET Core",
         "icon": "https://pluralsight2.imgix.net/paths/images/dot-net-e535ca86d0.png",

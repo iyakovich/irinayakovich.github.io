@@ -1,23 +1,18 @@
 [
     {
+        "title": "Azure Cloud",
+        "icon": "https://pluralsight2.imgix.net/paths/images/mcsa-ee0dacafe8.png",
+        "level": "> 5 years"
+    },
+    {
         "title": "Microservices Architecture",
         "icon": "https://pluralsight2.imgix.net/paths/images/microservices-49f6448019.png",
         "level": "expert"
     },
     {
-        "title": "C#",
-        "icon": "https://pluralsight2.imgix.net/paths/images/csharp-e7b8fcd4ce.png",
-        "level": "> 10 years"
-    },
-    {
         "title": "Python",
         "icon": "https://pluralsight2.imgix.net/assessments/images/icons/python-7be70baaac.png",
         "level": "> 2 years"
-    },
-    {
-        "title": "TypeScript",
-        "icon": "https://pluralsight2.imgix.net/paths/images/typescript-1169369a3e.png",
-        "level": "expert"
     },
     {
         "title": "Terraform",
@@ -44,9 +39,9 @@
         "level": "expert"
     },
     {
-        "title": "Snowflake",
-        "icon": "/assets/images/skills/snowflake_6.png",
-        "level": "expert"
+        "title": "C#",
+        "icon": "https://pluralsight2.imgix.net/paths/images/csharp-e7b8fcd4ce.png",
+        "level": "> 10 years"
     },
     {
         "title": ".NET Core",
@@ -54,9 +49,14 @@
         "level": "expert"
     },
     {
-        "title": "Azure Cloud",
-        "icon": "https://pluralsight2.imgix.net/paths/images/mcsa-ee0dacafe8.png",
-        "level": "> 5 years"
+        "title": "Snowflake",
+        "icon": "/assets/images/skills/snowflake_6.png",
+        "level": "expert"
+    },
+    {
+        "title": "PostgresSQL",
+        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png?w=60",
+        "level": "expert"
     },
     {
         "title": "Microsoft SQL Server",
@@ -67,11 +67,6 @@
         "level": "expert"
     },
     {
-        "title": "PostgresSQL",
-        "icon": "https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png?w=60",
-        "level": "expert"
-    },
-    {
         "title": "Scrum Master",
         "icon": "https://pluralsight2.imgix.net/assessments/images/icons/no-logo-jAtNDcyYi00ZWJ.png",
         "level": "expert"
@@ -79,6 +74,11 @@
     {
         "title": "Angular",
         "icon": "https://pluralsight.imgix.net/paths/path-icons/angular-14a0f6532f.png",
+        "level": "expert"
+    },
+    {
+        "title": "TypeScript",
+        "icon": "https://pluralsight2.imgix.net/paths/images/typescript-1169369a3e.png",
         "level": "expert"
     },
     {

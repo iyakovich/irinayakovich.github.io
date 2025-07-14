@@ -14,6 +14,9 @@
     {% if page.version == "platform" %}
         {% assign sorted = (site.data.linkedin.Positions_platform) %}
     {% endif %}
+    {% if page.version == "data" %}
+        {% assign sorted = (site.data.linkedin.Positions_data) %}
+    {% endif %}  
     {% for position in sorted %}
     {% assign companyInfo = (site.data.linkedinExtra.companies | where: "name" ,position["Company Name"] | first) %}
     {% assign description = (position['Description'] | replace: "Skills", "<br><br><b>Skills</b>"| replace: "•	", "<br>• ")%}
